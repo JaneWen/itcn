@@ -1,0 +1,37 @@
+{
+  "author": {
+    "name": "JaneWen",
+    "email":  "wenjian.avic@gmail.com",
+    "url":  "http://www.itcn1024.com"
+  },
+  "name": "itcn",
+  "version": "0.0.1",
+  "homepage": "http://www.itcn1024.com",
+  "keywords":["Node.js","Angular.js","MongoDB","bootstrap","Express","itcn"],
+  "main": "app.js",
+  "bugs": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JaneWen/itcn"
+  },
+  "engines": {
+    "node": ">0.10.x"
+  },
+  "dependencies":{
+    "express": ">=4.x",
+    "mongoose": ">=3.8.21",
+    "ejs": ">=2.2.2",
+    "thenjs": ">=1.4.6",
+    "xss": ">=0.1.18",
+    "log4js": ">=0.6.0",
+    "redis": ">=0.10.3"
+  },
+  "devDependencies": {
+    "gulp": ">=3.8.10"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
